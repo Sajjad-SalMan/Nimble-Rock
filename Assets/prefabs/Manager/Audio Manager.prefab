@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4729954530468427763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4729954530468427773}
+  - component: {fileID: 4729954530468427772}
+  - component: {fileID: 1361489831}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4729954530468427773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729954530468427763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4729954530468427772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729954530468427763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc7f2153749ecb4a97f2289edc0fd1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Dash
+    clip: {fileID: 8300000, guid: a1a4f0fa8d4dfa348bf51da468b682b3, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 6aebb7f08d451114fa5fd71f8d0a8287, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 0e2c2a6c670344b4f841e8cff1314cf4, type: 3}
+    volume: 1
+    pitch: 2.5
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin1
+    clip: {fileID: 8300000, guid: 7e882b43fa2f90741b57e5728db17b31, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin2
+    clip: {fileID: 8300000, guid: 7e882b43fa2f90741b57e5728db17b31, type: 3}
+    volume: 1
+    pitch: 1.1
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin3
+    clip: {fileID: 8300000, guid: 7e882b43fa2f90741b57e5728db17b31, type: 3}
+    volume: 1
+    pitch: 1.2
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin4
+    clip: {fileID: 8300000, guid: 7e882b43fa2f90741b57e5728db17b31, type: 3}
+    volume: 1
+    pitch: 1.3
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin5
+    clip: {fileID: 8300000, guid: 7e882b43fa2f90741b57e5728db17b31, type: 3}
+    volume: 1
+    pitch: 1.4
+    mute: 0
+    source: {fileID: 0}
+  - name: Coin6
+    clip: {fileID: 8300000, guid: 75215de3c9510924b937392ffbcf4b78, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Brick
+    clip: {fileID: 8300000, guid: d17e19fc463bec34798cfde873c08328, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Finish Line
+    clip: {fileID: 8300000, guid: 7479a160e44f0994982d299d03938d01, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 2bd4fe17f31c9e74b8968fef9085d010, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Enemy Death
+    clip: {fileID: 8300000, guid: c674bf0c35c800c40a43f78b9c4bfd6c, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Not End Line
+    clip: {fileID: 8300000, guid: 13946e592c72d83498c71c40862a8ee2, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Spring
+    clip: {fileID: 8300000, guid: 9be29d2b663d83f43b99c5a92d981a11, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: One way
+    clip: {fileID: 8300000, guid: bf17154e35454194c8cee3d2fb4087db, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: 48981ce9533b29647b930cd0049c81fa, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Door
+    clip: {fileID: 8300000, guid: 3088d4b8dce4c8b418e92d47d9255c9c, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: TP
+    clip: {fileID: 8300000, guid: 77f4d79abcdd4104dad4b176079f5ef2, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Alert
+    clip: {fileID: 8300000, guid: 711a12794f0121e4ea40a59d25e322ed, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: CheckPoint
+    clip: {fileID: 8300000, guid: 01104ea18a2dec8479f212d7f281d054, type: 3}
+    volume: 1
+    pitch: 1
+    mute: 0
+    source: {fileID: 0}
+--- !u!82 &1361489831
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729954530468427763}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6d0df2f495a0df24ca88c90303e156ff, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
